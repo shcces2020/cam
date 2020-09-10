@@ -1,0 +1,57 @@
+.otherPreview{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    display: none;
+}
+#header{
+    font-size: 2rem;
+    color: white;
+    background-color: #17A2B8;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.title{
+    font-size: 1.5rem;
+    color: black;
+    background-color: #17a2b8;
+    margin: 5px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    color: white;
+}
+.guideline{
+    font-size: 1rem;
+    margin: 5px ;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inline{
+    display: inline-block;
+}
+svg{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+#textarea{
+    resize: none;
+    
+}
+#blah{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    }
+input{
+    width: 500px;
+}
+span{
+    color: red;
+}
