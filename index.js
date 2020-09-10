@@ -33,12 +33,12 @@ function sendMail(mname,maddress,musername,memail,mopinion,mcontact,mtel,mphoto)
     To : 'zecharyw@gmail.com',
     From : memail,
     Subject : "Testing",
-    Body : body,
-    Attachments : [
-      {
-        name : "photo.jpg",
-        data : mphoto
-      }]
+    Body : body
+    // Attachments : [
+    //   {
+    //     name : "photo.jpg",
+    //     data : mphoto
+    //   }]
   })
   .then(function(message){
     alert("mail sent successfully")
