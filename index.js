@@ -29,7 +29,7 @@ function sendMail(mname,maddress,musername,memail,mopinion,mcontact,mtel,mphoto)
   // window.location.href  = "mailto:" + "me@example.com" + "?subject=" + subject + "&body=" + body;  
   
   Email.send({
-    SecureToken: '85c6a955-459e-4974-b95c-4ebfe6a981d8',
+    SecureToken: '7cebea0c-15e6-483c-bfcb-937ee4544895',
     To : 'zecharyw@gmail.com',
     From : memail,
     Subject : "Testing",
